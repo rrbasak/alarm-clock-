@@ -1,0 +1,27 @@
+#cancel{
+    background-color: rgb(107, 170, 12);
+    height: 38px;
+    width: 94.33px;
+    border-radius: 5px;
+    color: white;
+}
+#reset{
+    background-color: rgb(107, 170, 12);
+    height: 38px;
+    width: 94.33px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 204px;
+    margin-block: -38px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

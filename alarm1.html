@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="alarm.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand active" href="#">Alarm</a>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container my-3">
+    <h1>Option to set an alarm</h1>
+
+    <form>
+      <div class="form-group">
+        <label for="alarm">Set Alarm</label>
+        <input type="text" class="form-control" id="alarm" name="alarm"
+          placeholder="Enter the time in yyyy-mm-dd hh:mm:ss">
+
+        <small id="alarmHelp" class="form-text text-muted">We'll never share your alarm time with anyone else.</small>
+      </div>
+
+
+      <button id="alarmSubmit" type="submit" class="btn btn-primary">Set Alarm</button>
+      <button class="btn btn-danger" type="submit" id="alarmpause1">stop alarm</button>
+      <button  type="submit" id="cancel">cancel</button>
+      <button  type="submit" id="reset">Reset</button>
+    </form>
+
+    <div class="my-2">
+      <ul id="defs"></ul>
+    </div>
+  </div>
+
+
+  <script src="alarm.js"></script>
+</body>
+
+</html>
